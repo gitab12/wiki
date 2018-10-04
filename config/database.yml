@@ -1,0 +1,36 @@
+
+default: 
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  password: 12345
+  pool: 5
+  timeout: 5000
+  username: postgres
+development: 
+  adapter: postgresql
+  database: wiki_development
+  encoding: unicode
+  host: localhost
+  password: 12345
+  pool: 5
+  timeout: 5000
+  username: postgres
+production: 
+  adapter: postgresql
+  database: wiki_production
+  encoding: unicode
+  host: localhost
+  password: 12345
+  pool: 5
+  timeout: 5000
+  username: postgres
+test: 
+  adapter: postgresql
+  database: wiki_test
+  encoding: unicode
+  host: localhost
+  password: 12345
+  pool: 5
+  timeout: 5000
+  username: postgres
